@@ -1,0 +1,19 @@
+delay 2000
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+delay 5000
+string @echo off >> %temp%/Run.bat
+delay 50
+enter
+delay 50
+string echo.this is a test >> %temp%/Run.bat
+delay 50
+enter
+delay 50
+string pause >> %temp%/Run.bat
+delay 50
+enter
+delay 50
+string start %temp%/Run.bat
